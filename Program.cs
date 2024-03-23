@@ -1,16 +1,25 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
 using System.ComponentModel.Design;
-namespace homework_task_3;
 
-internal class ProjectBase
+namespace homework_task1_remake
 {
-    static void Main(string[] args)
+    internal class Project1Base
     {
-        float x = float.Parse(Console.ReadLine());
+        static void Main(string[] args)
+        {
+            Console.WriteLine("вы ввели число: ");
+            
+           
+           int x = int.Parse(Console.ReadLine());
 
-        Console.WriteLine($"{x / 100} - число полных метров");
+           
+            Console.ReadLine();
+        }
 
+        }
     }
 
-}
+
+
 
