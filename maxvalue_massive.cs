@@ -17,11 +17,8 @@ internal class Class1
 
         for (int i = 0; i < numbers.Length; i++)
         {
-            // это штоб перед еденицей пробела не было
-            if (numbers[i] == 12)
-                Console.Write(numbers[i]);
-            else
-                Console.Write(" " + numbers[i]);
+          
+                Console.Write( numbers[i] + " ");
 
         }
 
